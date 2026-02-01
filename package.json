@@ -1,6 +1,6 @@
 {
   "name": "@l1ph0x/paragon-i18n-ka",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Georgian (ka) overlay for Paragon message IDs",
   "type": "module",
   "main": "./dist/index.cjs",
