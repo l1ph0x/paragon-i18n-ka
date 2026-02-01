@@ -1,0 +1,20 @@
+{
+  "name": "@l1ph0x/paragon-i18n-ka",
+  "version": "0.1.0",
+  "description": "Georgian (ka) overlay for Paragon message IDs",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "prepublishOnly": "npm run build"
+  }
+}
+
